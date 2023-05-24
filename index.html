@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.title {
+  margin-top: 2rem;
+  text-align: center;
+  color: coral;
+}
+
+.grid {
+  width: 40rem;
+  margin: 2rem auto;
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 2rem);
+}
+
+.item {
+  border: 1px solid #333;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.item-2 {
+  grid-column: 18;
+}
+.item-5,
+.item-13 {
+  grid-column: 13;
+}
+.item-91,
+.item-107 {
+  grid-column: 3;
+}
+
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.magenta {
+  background-color: magenta;
+}
+.coral {
+  background-color: coral;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+.turquoise {
+  background-color: turquoise;
+}
+.olive {
+  background-color: olive;
+}
+
+.mr{
+    margin-right: 3px;
+}
+.mt{
+    margin-top:3px;
+}
+    </style>
+</head>
+<body>
+
+    <h1 class="title">Periodic Table</h1>
+<div class="grid">
+  <div class="item item-1 blue">H</div>
+  <div class="item item-2 purple">He</div>
+  <div class="item item-3 pink">Li</div>
+  <div class="item item-4 magenta mr">Be</div>
+  <div class="item item-5 yellow">B</div>
+  <div class="item item-6 green">C</div>
+  <div class="item item-7 green">N</div>
+  <div class="item item-8 green">O</div>
+  <div class="item item-9 blue">F</div>
+  <div class="item item-10 purple">Ne</div>
+  <div class="item item-11 pink">Na</div>
+  <div class="item item-12 magenta mr">Mg</div>
+  <div class="item item-13 orange">Al</div>
+  <div class="item item-14 yellow">Si</div>
+  <div class="item item-15 green">P</div>
+  <div class="item item-16 green">S</div>
+  <div class="item item-17 blue">Cl</div>
+  <div class="item item-18 purple">Ar</div>
+  <div class="item item-19 pink">K</div>
+  <div class="item item-20 magenta mr">Ca</div>
+  <div class="item item-21 coral">Sc</div>
+  <div class="item item-22 coral">Ti</div>
+  <div class="item item-23 coral">V</div>
+  <div class="item item-24 coral">Cr</div>
+  <div class="item item-25 coral">Mn</div>
+  <div class="item item-26 coral">Fe</div>
+  <div class="item item-27 coral">Co</div>
+  <div class="item item-28 coral">Ni</div>
+  <div class="item item-29 coral">Cu</div>
+  <div class="item item-30 coral">Zn</div>
+  <div class="item item-31 orange">Ga</div>
+  <div class="item item-32 yellow">Ge</div>
+  <div class="item item-33 yellow">As</div>
+  <div class="item item-34 green">Se</div>
+  <div class="item item-35 blue">Br</div>
+  <div class="item item-36 purple">Kr</div>
+  <div class="item item-37 pink">Rb</div>
+  <div class="item item-38 magenta mr">Sr</div>
+  <div class="item item-39 coral">Y</div>
+  <div class="item item-40 coral">Zr</div>
+  <div class="item item-41 coral">Nb</div>
+  <div class="item item-42 coral">Mo</div>
+  <div class="item item-43 coral">Tc</div>
+  <div class="item item-44 coral">Ru</div>
+  <div class="item item-45 coral">Rh</div>
+  <div class="item item-46 coral">Pd</div>
+  <div class="item item-47 coral">Ag</div>
+  <div class="item item-48 coral">Cd</div>
+  <div class="item item-49 orange">In</div>
+  <div class="item item-50 orange">Sn</div>
+  <div class="item item-51 yellow">Sb</div>
+  <div class="item item-52 yellow">Te</div>
+  <div class="item item-53 blue">I</div>
+  <div class="item item-54 purple">Xe</div>
+  <div class="item item-55 pink">Cs</div>
+  <div class="item item-56 magenta mr">Ba</div>
+  <div class="item item-57">*</div>
+  <div class="item item-58 coral">Hf</div>
+  <div class="item item-59 coral">Ta</div>
+  <div class="item item-60 coral">W</div>
+  <div class="item item-61 coral">Re</div>
+  <div class="item item-62 coral">Os</div>
+  <div class="item item-63 coral">Ir</div>
+  <div class="item item-64 coral">Pt</div>
+  <div class="item item-65 coral">Au</div>
+  <div class="item item-66 coral">Hg</div>
+  <div class="item item-67 orange">Tl</div>
+  <div class="item item-68 orange">Pb</div>
+  <div class="item item-69 orange">Bi</div>
+  <div class="item item-70 yellow">Po</div>
+  <div class="item item-71 blue">At</div>
+  <div class="item item-72 purple">Rn</div>
+  <div class="item item-73 pink">Fr</div>
+  <div class="item item-74 magenta mr">Ra</div>
+  <div class="item item-75">**</div>
+  <div class="item item-76 coral">Rf</div>
+  <div class="item item-77 coral">Db</div>
+  <div class="item item-78 coral">Sg</div>
+  <div class="item item-79 coral">Bh</div>
+  <div class="item item-80 coral">Hs</div>
+  <div class="item item-81 coral">Mt</div>
+  <div class="item item-82 coral">Ds</div>
+  <div class="item item-83 coral">Rg</div>
+  <div class="item item-84 coral">Cn</div>
+  <div class="item item-85 orange">Nh</div>
+  <div class="item item-86 orange">Fl</div>
+  <div class="item item-87 orange">Mc</div>
+  <div class="item item-88 orange">Lv</div>
+  <div class="item item-89 blue">Ts</div>
+  <div class="item item-90 purple">Og</div>
+  <div class="item item-91">*</div>
+  <div class="item item-92 turquoise mt">La</div>
+  <div class="item item-93 turquoise">Ce</div>
+  <div class="item item-94 turquoise">Pr</div>
+  <div class="item item-95 turquoise">Nd</div>
+  <div class="item item-96 turquoise">Pm</div>
+  <div class="item item-97 turquoise">Sm</div>
+  <div class="item item-98 turquoise">Eu</div>
+  <div class="item item-99 turquoise">Gd</div>
+  <div class="item item-100 turquoise">Tb</div>
+  <div class="item item-101 turquoise">Dy</div>
+  <div class="item item-102 turquoise">Ho</div>
+  <div class="item item-103 turquoise">Er</div>
+  <div class="item item-104 turquoise">Tm</div>
+  <div class="item item-105 turquoise">Yb</div>
+  <div class="item item-106 turquoise">Lu</div>
+  <div class="item item-107">**</div>
+  <div class="item item-108 olive">Ac</div>
+  <div class="item item-109 olive">Th</div>
+  <div class="item item-110 olive">Pa</div>
+  <div class="item item-111 olive">U</div>
+  <div class="item item-112 olive">Np</div>
+  <div class="item item-113 olive">Pu</div>
+  <div class="item item-114 olive">Am</div>
+  <div class="item item-115 olive">Cm</div>
+  <div class="item item-116 olive">Bk</div>
+  <div class="item item-117 olive">Cf</div>
+  <div class="item item-118 olive">Es</div>
+  <div class="item item-119 olive">Fm</div>
+  <div class="item item-120 olive">Md</div>
+  <div class="item item-121 olive">No</div>
+  <div class="item item-122 olive">Lr</div>
+</div>
+    
+</body>
+</html>
